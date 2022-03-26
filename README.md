@@ -66,3 +66,12 @@ serve
 ```
 
 > If you want you can use apache, simply put the dist folder content to the root of the apache folder
+
+## Running application for development
+
+Use the `start.sh` script:
+
+```sh
+cd linux-remote
+bash start.sh
+```
