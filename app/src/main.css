@@ -1,0 +1,116 @@
+body {
+  font-family: JetBrainsMono Nerd Font, agave Nerd Font, Iosevka Nerd Font, Iosevka Nerd Font Mono, Fira Code Nerd Font, UbuntuMono Nerd Font, JetBrainsMono Nerd Font, CaskaydiaCove Nerd Font, CascadiaCode, monospace;
+  background: var(--background);
+  color: var(--foreground);
+  overflow: hidden;
+}
+
+.container {
+  position: fixed;
+  top: 45%;
+  text-align: center;
+  width: 95%;
+}
+
+.controls {
+  position: fixed;
+  top: 51.5%;
+  text-align: center;
+  width: 95%;
+}
+
+.blue-text {
+  color: var(--blue) !important;
+}
+
+.green-text {
+  color: var(--green) !important;
+}
+
+.red-text {
+  color: var(--red) !important;
+}
+
+.yellow-text {
+  color: var(--yellow) !important;
+}
+
+.magenta-text {
+  color: var(--magenta) !important;
+}
+
+.bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 0.02rem;
+  padding-left: 18px;
+  background: var(--dark);
+  color: var(--foreground);
+  font-family: inherit;
+  text-align: left;
+}
+
+.art-url-container {
+  padding-top: 0.5rem;
+  overflow: auto;
+}
+
+.art-url-thumb {
+  float: left;
+}
+
+.art-url-thumb img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.art-url-content {
+  margin-left: 3rem;
+}
+
+.art-url-content p {
+  font-size: 11px;
+}
+
+.music-bars {
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.music-control {
+  cursor: pointer;
+  font-size: 50px;
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  margin-top: 20px;
+  transform: scale(1);
+  transition: all ease .2s;
+}
+
+.pause-control:hover {
+  transform: scale(1.1);
+}
+
+.pause-control:active {
+  transform: scale(1);
+}
+
+.previous-control {
+  color: var(--blue) !important;
+  font-size: 35px;
+}
+
+.next-control {
+  color: var(--blue) !important;
+  font-size: 35px;
+}
