@@ -3,6 +3,8 @@
 This is a web based application that uses playerctl in it backend to control remotely
 your audio using the frontend as remote control.
 
+![demonstration](./misc/demonstration.png)
+
 ## Downloading and setup
 
 First download with git
